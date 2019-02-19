@@ -1,0 +1,24 @@
+.main {
+  .main_left, .main_right {
+    height: 400px;
+    width: 50%;
+    float: left;
+  }
+  .main_left{
+    padding: 10px 150px;
+    h1 {
+      color: #61CE4E;
+      font-size: 50px;
+      font-weight: 400;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .main_right {
+    img {
+      width: 550px;
+      margin: 20px 0 0 20px;
+    }
+  }
+}
