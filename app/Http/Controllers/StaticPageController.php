@@ -11,4 +11,8 @@ class StaticPageController extends Controller
       return view('privacy-policy');
     }
 
+    public function workWithUs() {
+      return view('work-with-us');
+    }
+
 }

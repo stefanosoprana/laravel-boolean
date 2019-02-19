@@ -1,0 +1,26 @@
+.work_main {
+  margin: 0 150px;
+  h1 {
+    font-weight: 700;
+  }
+  h2 {
+    font-weight: 700;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  p {
+    font-size: 16px;
+    :last-child {
+      display: inline-block;
+      margin-top: 30px;
+    }
+  }
+  ul {
+    li {
+      font-size: 16px;
+    }
+  }
+}

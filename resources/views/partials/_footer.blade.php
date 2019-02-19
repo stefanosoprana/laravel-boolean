@@ -8,7 +8,7 @@
     </div>
     <div class="static_page">
       <a href="{{ route('static_page.privacy_policy') }}">Privacy Policy</a> <br>
-      <a href="#">Lavora con noi!</a>
+      <a href="{{ route('static_page.work_with_us')}}">Lavora con noi!</a>
     </div>
     <div class="social">
       <i class="fab fa-facebook"></i>
