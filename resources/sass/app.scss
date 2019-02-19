@@ -14,9 +14,14 @@
 // Partials
 
 @import 'partials/_header';
-@import 'partials/_main';
-@import 'partials/_sponsor';
 @import 'partials/_footer';
+
+// Partials home
+@import 'partials/home/_main';
+@import 'partials/home/_sponsor';
+
+// Partials privacy-policy
+@import 'partials/privacy-policy/_privacy-main';
 
 * {
   color: #1B3C59;
