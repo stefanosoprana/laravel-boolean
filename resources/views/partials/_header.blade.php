@@ -4,12 +4,15 @@
   </div>
   <div class="header_right">
     <ul>
-      <li><a href="{{ route('home') }}">HOME</a></li>
-      <li><a href="#">CORSO</a></li>
-      <li><a href="#">METODO</a></li>
-      <li><a href="#">DOPO IL CORSO</a></li>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">Iscriviti</a></li>
+      <li class="{{ (Request::route()->getName() == 'home') ? 'active' : null}}">
+        <a href="{{ route('home') }}">HOME</a>
+      </li>
+      <li class="{{ (Request::route()->getName() == 'static_page.privacy_policy') ? 'active' : null}}">
+        <a href="{{ route('static_page.privacy_policy') }}">PRIVACY POLICY</a>
+      </li>
+      <li class="{{ (Request::route()->getName() == 'static_page.work_with_us') ? 'active' : null}}">
+        <a href="{{ route('static_page.work_with_us')}}">LAVORA CON NOI</a>
+      </li>
     </ul>
   </div>
 </div>
