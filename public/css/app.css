@@ -13889,6 +13889,60 @@ a.text-dark:focus {
   font-size: 16px;
 }
 
+.container_student {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.container_student .back_student {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 50%;
+  height: 140px;
+}
+
+.container_student .back_student .card_student {
+  width: 400px;
+  height: 80px;
+  background: #1B3C59;
+}
+
+.container_student .back_student .card_student .student_left,
+.container_student .back_student .card_student .student_right {
+  float: left;
+  height: 100%;
+}
+
+.container_student .back_student .card_student .student_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.container_student .back_student .card_student .student_left img {
+  height: 70px;
+  border-radius: 100%;
+}
+
+.container_student .back_student .card_student .student_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+
+.container_student .back_student .card_student .student_right h3 {
+  color: white;
+  font-size: 18px;
+}
+
+.container_student .back_student .card_student .student_right small {
+  color: white;
+}
+
 * {
   color: #1B3C59;
 }

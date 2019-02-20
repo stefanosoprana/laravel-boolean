@@ -8,11 +8,11 @@ class StaticPageController extends Controller
 {
 
     public function privacyPolicy() {
-      return view('privacy-policy');
+      return view('static_pages.privacy-policy');
     }
 
     public function workWithUs() {
-      return view('work-with-us');
+      return view('static_pages.work-with-us');
     }
 
 }

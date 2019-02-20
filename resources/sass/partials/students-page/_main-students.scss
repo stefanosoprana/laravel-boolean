@@ -1,0 +1,44 @@
+.container_student {
+  margin: 0 auto;
+  width: 80%;
+  .back_student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 50%;
+    height: 140px;
+    .card_student {
+      width: 400px;
+      height: 80px;
+      background: #1B3C59;
+      .student_left, .student_right {
+        float: left;
+        height: 100%;
+      }
+      .student_left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        img {
+          height: 70px;
+          border-radius: 100%;
+        }
+      }
+      .student_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        h3 {
+          color: white;
+          font-size: 18px;
+        }
+        small {
+          color: white;
+        }
+      }
+    }
+  }
+}
