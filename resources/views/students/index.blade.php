@@ -10,13 +10,12 @@
             <img src="{{ $student['img'] }}">
           </div>
           <div class="student_right">
-            <h3>{{ $student['name'] }}  ({{ $student['age'] }} anni)</h3>
+            <h3><a href="{{ route('students.show', ['slug' => $student['slug']]) }}">{{ $student['name'] }}  ({{ $student['age'] }} anni)</a></h3>
             <small>Ora è Web Developer in {{ $student['azienda'] }}</small>
           </div>
         </div>
       </div>
     @endforeach
-
   </div>
 
 @endsection

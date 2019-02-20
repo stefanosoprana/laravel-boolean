@@ -32,8 +32,10 @@
         justify-content: center;
         width: 70%;
         h3 {
-          color: white;
           font-size: 18px;
+          a {
+            color: white;
+          }
         }
         small {
           color: white;

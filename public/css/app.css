@@ -13935,8 +13935,11 @@ a.text-dark:focus {
 }
 
 .container_student .back_student .card_student .student_right h3 {
-  color: white;
   font-size: 18px;
+}
+
+.container_student .back_student .card_student .student_right h3 a {
+  color: white;
 }
 
 .container_student .back_student .card_student .student_right small {
